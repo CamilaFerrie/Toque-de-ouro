@@ -1,5 +1,6 @@
 *{
-
+    margin: 0%;
+    padding: 0%;
 }
 
 :root{
@@ -7,7 +8,36 @@
     --font-secundaria: "DM+Sans";
 }
 
+h1{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: 1px;
+    overflow: hidden;
+}
+
 /* ---------------CABEÇARIO-------------- */
+header{
+    background-color: green;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho img{
+    width: 200px;
+}
+
+.container{
+    width: 95%;
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+
+
+
+
 /* -------------BANNER------------ */
 /* ------------CATEGORIAS----------- */
 /* -----------RODAPÉ------------- */
